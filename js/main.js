@@ -77,8 +77,6 @@ function dropHandler(event) {
     // Prevent default behavior (Prevent file from being opened)
     event.preventDefault();
 
-    console.log("test: ", event);
-
     let file;
     if (event.dataTransfer.items) {
         // Use DataTransferItemList interface to access the file(s)
